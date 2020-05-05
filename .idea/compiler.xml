@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign-service" />
+        <module name="SpringCloud-hystrix-provider" />
+        <module name="SpringCloud-feign-consumer" />
+        <module name="feign-api" />
+        <module name="eureka-danji-7081" />
+        <module name="feign-model" />
+        <module name="SpringCloud-fegin-consumer" />
+        <module name="feign-mapper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Springcloud-fegin-consumer" target="1.5" />
+      <module name="SpringCloud-fegin-consumer" target="1.5" />
+      <module name="SpringCloud-ribbon-provider" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
